@@ -1,0 +1,16 @@
+# Chat Completion - POST
+@deployment-id=embeddings-for-apim
+@api-version = 2024-05-01-preview
+@APIM-API-Endpoint = https://mmapim01.azure-api.net/balanced-azure-open-aiservice-api
+@subscription-key = 05eaa4db36254d16acfef11ac413f335 
+
+@APIM-API-Operation-Path = /deployments/{{deployment-id}}/embeddings?api-version={api-version}
+
+
+POST {{APIM-API-Endpoint}}{{APIM-API-Operation-Path}}
+api-key: {{subscription-key}}
+Content-Type: application/json
+
+{
+  "input": ["rabbit"]
+}
