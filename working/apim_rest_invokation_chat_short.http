@@ -1,0 +1,17 @@
+# Chat Completion - POST
+@APIM-API-Endpoint = https://mmapim01.azure-api.net/balanced-azure-openai-service-api
+@APIM-API-Operation-Path = /deployments/gpt-4o-for-apim/chat/completions
+@APIM-Subscription-Key = 85783c3231864eaa82d1bec25c4cf7bb
+
+POST {{APIM-API-Endpoint}}{{APIM-API-Operation-Path}}
+api-key: {{APIM-Subscription-Key}}
+
+{
+  "max_tokens": 500,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi there!"
+    }
+  ]
+}
