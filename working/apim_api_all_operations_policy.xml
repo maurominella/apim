@@ -1,0 +1,41 @@
+<policies>
+    <inbound>
+        <azure-openai-emit-token-metric namespace="OpenAIUsage">
+            <dimension name="Subscription ID" />
+            <dimension name="Client IP" value="@(context.Request.IpAddress)" />
+            <dimension name="API ID" />
+            <dimension name="Operation ID" />
+        </azure-openai-emit-token-metric>
+        <azure-openai-token-limit tokens-per-minute="@{
+                switch(context.Subscription.Id){
+                    case "Demo-OpenAI":
+                        return 100000;
+                            break;
+                    case "Client2":
+                        return 2000;
+                            break;
+                    default:
+                        return 500;
+                            break;
+                }
+            }" counter-key="@(context.Subscription.Id)" estimate-prompt-tokens="true" />
+        <authentication-managed-identity resource="https://cognitiveservices.azure.com/" />
+        <set-header name="Content-Type" exists-action="override">
+            <value>Application/Json</value>
+        </set-header>
+        <set-query-parameter name="api-version" exists-action="override">
+            <value>2024-05-01-preview</value>
+        </set-query-parameter>
+        <set-backend-service backend-id="backend-openai-pool" />
+        <base />
+    </inbound>
+    <backend>
+        <base />
+    </backend>
+    <outbound>
+        <base />
+    </outbound>
+    <on-error>
+        <base />
+    </on-error>
+</policies>
