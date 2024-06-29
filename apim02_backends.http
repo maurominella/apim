@@ -1,0 +1,133 @@
+# $token=$(az account get-access-token --query accessToken --output tsv)
+
+@Token               = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyIsImtpZCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyJ9.eyJhdWQiOiJodHRwczovL21hbmFnZW1lbnQuY29yZS53aW5kb3dzLm5ldC8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kZGRiMjY2MS03OTA4LTRmMjctYTY3Yy1kMWI0ODRkZjYyNWIvIiwiaWF0IjoxNzE5NjU0NzMxLCJuYmYiOjE3MTk2NTQ3MzEsImV4cCI6MTcxOTY1OTYyMywiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhYQUFBQWFxa2ZxRU5CZXBUdnVxOEQ2cmpTcTVaMm1PQU1kK2FvdElNSVhwK1lxcS9tRy9iMGZLOWFDWUlGNUpaVGIrcSthRE5wYWphcmlKVGRjWUNQK0M3d3FROE82bHhGVVNLcTJJTjhsZ2Y2Y2VNPSIsImFtciI6WyJwd2QiLCJtZmEiXSwiYXBwaWQiOiIwNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDYiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6Ik1pbmVsbGEiLCJnaXZlbl9uYW1lIjoiTWF1cm8iLCJncm91cHMiOlsiNjA3ODFjMGYtZTlkYi00YWVlLThiOTctODE4ZmM2ZmJjODQ2IiwiYmMyOGM4ODItYWI5NC00ODk5LTliNGEtY2U0NjNkZGYxOWU3IiwiMTk2YTA5ZGUtZTIyNi00MTMwLWE3NjctZTMzM2U5ODQzOTRlIiwiOWNjNmE5MDAtZTFlNi00OWFkLTlhNjEtNWYxNjBkOTQxY2U1IiwiNjlkNmYxZTUtNGI1MC00N2Q0LTkxMDEtMGFiOGRmYzg1ZWIxIl0sImlkdHlwIjoidXNlciIsImlwYWRkciI6IjkzLjU2LjEwNC4yNDkiLCJuYW1lIjoiTWF1cm8gTWluZWxsYSIsIm9pZCI6IjZjZTFhYTVhLTgwY2QtNDBhNi1hZmFiLWU1NGFjNTM4MDQ5ZiIsInB1aWQiOiIxMDAzMjAwMjM0MDBBQjI5IiwicmgiOiIwLkFWa0FZU2JiM1FoNUowLW1mTkcwaE45aVcwWklmM2tBdXRkUHVrUGF3ZmoyTUJPZEFJWS4iLCJzY3AiOiJ1c2VyX2ltcGVyc29uYXRpb24iLCJzdWIiOiJrNUljQlFPVE5rdUNwU1NEVHo4aGZ5TEpWdG96N1JYdlZfN1I1MnRpZjkwIiwidGlkIjoiZGRkYjI2NjEtNzkwOC00ZjI3LWE2N2MtZDFiNDg0ZGY2MjViIiwidW5pcXVlX25hbWUiOiJtYXVyby5taW5lbGxhQG1uZ2Vudjc4OTkxMS5vbm1pY3Jvc29mdC5jb20iLCJ1cG4iOiJtYXVyby5taW5lbGxhQG1uZ2Vudjc4OTkxMS5vbm1pY3Jvc29mdC5jb20iLCJ1dGkiOiJPNmVDNWN5Y1QwZVl4MUFWN184YUFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyIxMTY0ODU5Ny05MjZjLTRjZjMtOWMzNi1iY2ViYjBiYThkY2MiLCJhOWVhODk5Ni0xMjJmLTRjNzQtOTUyMC04ZWRjZDE5MjgyNmMiLCI2MmU5MDM5NC02OWY1LTQyMzctOTE5MC0wMTIxNzcxNDVlMTAiLCJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXSwieG1zX2NhZSI6IjEiLCJ4bXNfY2MiOlsiQ1AxIl0sInhtc19maWx0ZXJfaW5kZXgiOlsiODkiXSwieG1zX2lkcmVsIjoiMSA4IiwieG1zX3JkIjoiMC40MkxsWUJSaWpBUUEiLCJ4bXNfc3NtIjoiMSIsInhtc190Y2R0IjoxNjYyNTgwMTQyfQ.YqnTO2oVrqcyJjyo45XjTQZ_S5L6GXUUMoAVlxAdN8oP6mP6ny4ieEfbOXBglKUIZoUU3O9QFESUivS_3uOJEGznGEzDp4trF7qVBYad2r5CsGc_DsMwa5PTopsKnQq9WMyexXah2hcwP_hvJ__eGe27kj7SsI0R7qzgXWOVvBGIcI6Wc67reC5hVDinYM_Gs2xPRd0xNOFIggMEVEbMIIQ1vjC9sX1Nbo6djixUnKwZDWN2llphWeudpH3-Q8TVWXp_iKBhHawslVLIlREdd2hh3-4Br25-xz1_BHXXTl0CNiyJNWuVT_TYEcpBNPlt_blPDMcyOXX0mGYbDWbK7w
+
+@subscription-id     = 43273dfb-d66b-4034-9103-d0671032d4fc
+@resource-group-name = mmcognitivegrp
+
+@apim-name           = mmapim02
+@apim-api-version    = 2023-09-01-preview
+
+@backend-openai-fallback-name = backend-openai-main-mmopenaiscus
+@backend-openai-fallback-url  = https://mmopenaiscus.openai.azure.com/openai
+
+@backend-openai-main-name = backend-openai-main-mmopenaisec
+@backend-openai-main-url  = https://mmopenaisec.openai.azure.com/openai
+
+@backend-openai-pool-name = backend-openai-pool
+
+@app-insights-resource-name = app-insights-for-apim2
+@app-insights-workspace-name = 43273dfb-d66b-4034-9103-d0671032d4fc-mmcognitivegrp-WEU
+@app-insights-api-version = 2022-10-01
+
+# Purge AppInsights
+POST https://management.azure.com/subscriptions/43273dfb-d66b-4034-9103-d0671032d4fc/resourceGroups/mmcognitivegrp/providers/Microsoft.OperationalInsights/workspaces/43273dfb-d66b-4034-9103-d0671032d4fc-mmcognitivegrp-WEU/purge?api-version={{app-insights-api-version}}
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{  
+    "table": "customMetrics",
+    "filters": [
+        {
+            "column": "timestamp",
+            "operator": "<",
+            "value": "9999-12-31T23:59:59.9999999Z"
+        }
+    ]
+}
+
+###
+
+
+# Backend - Fallback (no restrictions)
+PUT https://management.azure.com/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backend-openai-fallback-name}}?api-version={{apim-api-version}}
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "properties": {
+    "title": "{{backend-openai-fallback-name}}",
+    "description": "{{backend-openai-fallback-name}}",
+    "url": "{{backend-openai-fallback-url}}",
+    "protocol": "http",
+    "tls": {
+      "validateCertificateChain": true,
+      "validateCertificateName": true
+    }
+  }
+}
+
+###
+
+# Backend - Main
+PUT https://management.azure.com/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backend-openai-main-name}}?api-version={{apim-api-version}}
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "properties": {
+    "title": "{{backend-openai-main-name}}",
+    "description": "{{backend-openai-main-name}}",
+    "url": "{{backend-openai-main-url}}",
+    "protocol": "http",
+    "tls": {
+      "validateCertificateChain": true,
+      "validateCertificateName": true
+    },
+    "circuitBreaker": {
+      "rules": [
+        {
+          "name": "myBreakerRule",
+          "tripDuration": "PT1M",
+          "acceptRetryAfter": "false",
+          "failureCondition": {
+            "count": "1",
+            "interval": "PT10S",
+            "statusCodeRanges": [
+              {
+                "min": "429",
+                "max": "429"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
+
+###
+
+# Backend Pool Creation or Update using PUT
+PUT https://management.azure.com/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backend-openai-pool-name}}?api-version={{apim-api-version}}
+Authorization: Bearer {{Token}}
+Content-Type: application/json
+
+{
+  "type": "Microsoft.ApiManagement/service/backends",
+  "name": "{{backend-openai-pool-name}}",
+  "properties": {
+    "description": "{{backend-openai-pool-name}}",
+    "type": "Pool",
+    "pool": {
+      "services": [
+        {
+          "id": "/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backend-openai-main-name}}",
+          "priority":1
+        },
+        {
+          "id": "/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backend-openai-fallback-name}}",
+          "priority":2
+        }
+      ]
+    }
+  }
+}
+
+
+###
+
+# Backend Retrieval using GET for backend-openai-main-name, backend-openai-fallback-name and backend-openai-pool-name
+@backendToRetrieve={{backend-openai-pool-name}}
+GET https://management.azure.com/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backendToRetrieve}}?api-version={{apim-api-version}}
+Authorization: Bearer {{Token}}

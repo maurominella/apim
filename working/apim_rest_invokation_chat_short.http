@@ -1,7 +1,10 @@
 # Chat Completion - POST
 @APIM-API-Endpoint = https://mmapim01.azure-api.net/balanced-azure-openai-service-api
 @APIM-API-Operation-Path = /deployments/gpt-4o-for-apim/chat/completions
-@APIM-Subscription-Key = 85783c3231864eaa82d1bec25c4cf7bb
+# premium subscription key: 9003be70a5c5422fb9b5a1fedd52457a
+# standard subscription key: 19bb9479ad724dc4861d6a02d3952340
+# other subscription key (unlimited): 36ccdb16f1454f9b95dd3f2451599c96
+@APIM-Subscription-Key = 36ccdb16f1454f9b95dd3f2451599c96
 
 POST {{APIM-API-Endpoint}}{{APIM-API-Operation-Path}}
 api-key: {{APIM-Subscription-Key}}
