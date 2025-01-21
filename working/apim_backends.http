@@ -1,18 +1,18 @@
 # $token=$(az account get-access-token --query accessToken --output tsv)
 
-@Token               = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyIsImtpZCI6Ik1HTHFqOThWTkxvWGFGZnBKQ0JwZ0I0SmFLcyJ9.eyJhdWQiOiJodHRwczovL21hbmFnZW1lbnQuY29yZS53aW5kb3dzLm5ldC8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9kZGRiMjY2MS03OTA4LTRmMjctYTY3Yy1kMWI0ODRkZjYyNWIvIiwiaWF0IjoxNzE5NTUzODkyLCJuYmYiOjE3MTk1NTM4OTIsImV4cCI6MTcxOTU1OTQyOSwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhYQUFBQXRFYTNzOGQwTEJpc09QcEFIWnNIYTJwNGdjOCtNZ29leWhHemliVGFxOEd0ZDg2cmp4OHdqYUNhQkdqcGd1VVNzY1dKd2dGYW5OaXMvaENBRjB6MFRMSmFxeDJYRFFEVFlzRkFwNDFmdkk0PSIsImFtciI6WyJwd2QiLCJtZmEiXSwiYXBwaWQiOiIwNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDYiLCJhcHBpZGFjciI6IjAiLCJmYW1pbHlfbmFtZSI6Ik1pbmVsbGEiLCJnaXZlbl9uYW1lIjoiTWF1cm8iLCJncm91cHMiOlsiNjA3ODFjMGYtZTlkYi00YWVlLThiOTctODE4ZmM2ZmJjODQ2IiwiYmMyOGM4ODItYWI5NC00ODk5LTliNGEtY2U0NjNkZGYxOWU3IiwiMTk2YTA5ZGUtZTIyNi00MTMwLWE3NjctZTMzM2U5ODQzOTRlIiwiOWNjNmE5MDAtZTFlNi00OWFkLTlhNjEtNWYxNjBkOTQxY2U1IiwiNjlkNmYxZTUtNGI1MC00N2Q0LTkxMDEtMGFiOGRmYzg1ZWIxIl0sImlkdHlwIjoidXNlciIsImlwYWRkciI6IjJhMDE6MTEwOjgwMTI6MTAxMzo3MjI3OjYzYjA6Yzk5NDo2ZGFhIiwibmFtZSI6Ik1hdXJvIE1pbmVsbGEiLCJvaWQiOiI2Y2UxYWE1YS04MGNkLTQwYTYtYWZhYi1lNTRhYzUzODA0OWYiLCJwdWlkIjoiMTAwMzIwMDIzNDAwQUIyOSIsInJoIjoiMC5BVmtBWVNiYjNRaDVKMC1tZk5HMGhOOWlXMFpJZjNrQXV0ZFB1a1Bhd2ZqMk1CT2RBSVkuIiwic2NwIjoidXNlcl9pbXBlcnNvbmF0aW9uIiwic3ViIjoiazVJY0JRT1ROa3VDcFNTRFR6OGhmeUxKVnRvejdSWHZWXzdSNTJ0aWY5MCIsInRpZCI6ImRkZGIyNjYxLTc5MDgtNGYyNy1hNjdjLWQxYjQ4NGRmNjI1YiIsInVuaXF1ZV9uYW1lIjoibWF1cm8ubWluZWxsYUBtbmdlbnY3ODk5MTEub25taWNyb3NvZnQuY29tIiwidXBuIjoibWF1cm8ubWluZWxsYUBtbmdlbnY3ODk5MTEub25taWNyb3NvZnQuY29tIiwidXRpIjoibklHSWcxN0pJVVdwdjFwM2JPTU1BUSIsInZlciI6IjEuMCIsIndpZHMiOlsiMTE2NDg1OTctOTI2Yy00Y2YzLTljMzYtYmNlYmIwYmE4ZGNjIiwiYTllYTg5OTYtMTIyZi00Yzc0LTk1MjAtOGVkY2QxOTI4MjZjIiwiNjJlOTAzOTQtNjlmNS00MjM3LTkxOTAtMDEyMTc3MTQ1ZTEwIiwiYjc5ZmJmNGQtM2VmOS00Njg5LTgxNDMtNzZiMTk0ZTg1NTA5Il0sInhtc19pZHJlbCI6IjEgMTIiLCJ4bXNfdGNkdCI6MTY2MjU4MDE0Mn0.nfelE_YzeiOuDHxdGSkBwSn172HSa_lSjmih1iVFS3sM_9baCdyd4p9yVkDUbmqNEO64imPX9HEXN2Dr1S4Rd7m969XNvEPQmvZeh9rw0vk1x39NooZepmTzZgQGyNrOw6S-ail4CfYWnP45iGLMrUrDVedawiEGEWZ5iejgESXnHPNkKbao9pMMGrexNE4CqEKy4Vd5EZBPffauZlia5a_vqU99xtLIl9smL76epaZAkY76N6FAtzT9Dp3P7vSY-UprucvXnqJH5yMFM-xd6ltsj76pfvC9LQPHPTSNly_wh27YflDUcikW1zk2hpQSKkI9vb58q8_J88x7e7QO9g
+@Token               = eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyIsImtpZCI6IllUY2VPNUlKeXlxUjZqekRTNWlBYnBlNDJKdyJ9.eyJhdWQiOiJodHRwczovL21hbmFnZW1lbnQuY29yZS53aW5kb3dzLm5ldC8iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8zYWQwYjkwNS0zNGFiLTQxMTYtOTNkOS1jMWRjYzJkMzVhZjYvIiwiaWF0IjoxNzM3NDkyNTc5LCJuYmYiOjE3Mzc0OTI1NzksImV4cCI6MTczNzQ5NzE2OCwiYWNyIjoiMSIsImFpbyI6IkFWUUFxLzhaQUFBQVdyV2tIOTZjRXBza20wNEVaNk52Zlp5M3U2QUNRUmZLWUt5UlMvaVNuQnR1em1HcmFiUTZyS2tsNkRSTW9GeTB5SzVLTnJBS2Y0b09ZY3NGRVlHMEZuOHQ3eGpnKzFHY0xOakNaR3RSd2tVPSIsImFtciI6WyJwd2QiLCJyc2EiLCJtZmEiXSwiYXBwaWQiOiIwNGIwNzc5NS04ZGRiLTQ2MWEtYmJlZS0wMmY5ZTFiZjdiNDYiLCJhcHBpZGFjciI6IjAiLCJkZXZpY2VpZCI6ImM2ZDc4MzRjLWM1M2EtNGQ1NS04Y2JmLTAzYjBjN2VlN2IyZiIsImZhbWlseV9uYW1lIjoiTWluZWxsYSIsImdpdmVuX25hbWUiOiJNYXVybyIsImdyb3VwcyI6WyI5ZDU2ZmY0ZS02MjkzLTQwYzUtODZmZC1lZjI4NWFlOWY1NjQiLCJjM2RhNDI5MS05YTE4LTQ0MjktYTVmOS05OWFiMWIwNTg3NTMiXSwiaWR0eXAiOiJ1c2VyIiwiaXBhZGRyIjoiOTMuNTYuMTA0LjI0OSIsIm5hbWUiOiJNYXVybyBNaW5lbGxhIiwib2lkIjoiNjhjNGJmMWUtN2M0OS00ZjkyLWE4ZjUtMGQzMzE4MzFjNTFhIiwicHVpZCI6IjEwMDMyMDAzQUFGQzk4QzkiLCJwd2RfdXJsIjoiaHR0cHM6Ly9wb3J0YWwubWljcm9zb2Z0b25saW5lLmNvbS9DaGFuZ2VQYXNzd29yZC5hc3B4IiwicmgiOiIxLkFiMEFCYm5RT3FzMEZrR1QyY0hjd3ROYTlrWklmM2tBdXRkUHVrUGF3ZmoyTUJNREFVSzlBQS4iLCJzY3AiOiJ1c2VyX2ltcGVyc29uYXRpb24iLCJzdWIiOiJvNzJ1LTJzREtZTUdqVW9pY2VRMnk4ejJXd3BpWWhtWXJoSmVjRmdFWUZZIiwidGlkIjoiM2FkMGI5MDUtMzRhYi00MTE2LTkzZDktYzFkY2MyZDM1YWY2IiwidW5pcXVlX25hbWUiOiJtYXVyby5taW5lbGxhQE1uZ0Vudk1DQVA4ODM2NTIub25taWNyb3NvZnQuY29tIiwidXBuIjoibWF1cm8ubWluZWxsYUBNbmdFbnZNQ0FQODgzNjUyLm9ubWljcm9zb2Z0LmNvbSIsInV0aSI6IjVGVE9RTjNZeWthYmJ1S2VFdHd6QUEiLCJ2ZXIiOiIxLjAiLCJ3aWRzIjpbIjE1OGMwNDdhLWM5MDctNDU1Ni1iN2VmLTQ0NjU1MWE2YjVmNyIsIjYyZTkwMzk0LTY5ZjUtNDIzNy05MTkwLTAxMjE3NzE0NWUxMCIsImI3OWZiZjRkLTNlZjktNDY4OS04MTQzLTc2YjE5NGU4NTUwOSJdLCJ4bXNfY2FlIjoiMSIsInhtc19jYyI6WyJDUDEiXSwieG1zX2ZpbHRlcl9pbmRleCI6WyIxODkiXSwieG1zX2lkcmVsIjoiNiAxIiwieG1zX3JkIjoiMC40MkxqWUJSaTJzc0lBQSIsInhtc19zc20iOiIxIiwieG1zX3RjZHQiOjE3MjE3NzY2MTh9.dnnTgyrWniUTph5S5IZ_dW_251Y4MeOw-knqvGMben1Girg2AEJjOrDmQOaOnt5wu1O2GCStWZOBmYECdL6giC5VVC7Ehqvgc-4ZWlZqTD1vy-ccnwXDVZx4_BC9tXCRzWhG5YEMhyuanxZ7j3G1aadRupQmE8fAihAXJWra3Uric4WGiQZYmNo_E3RnwtCQUKMmLGDgxpOLxPVQFZcVelnuWqjuAg0lHhJdGAYcRuPpNNb3rn9ZM4WWOepCEqPDr7jgzv4tuAxXpYKWyt745MPdJiLpeYFHtd3crZDTG0zVtLcfxzPmFkEgpVEVXnSvFFqTz0tBdgnrASMjcJusVw
 
-@subscription-id     = 43273dfb-d66b-4034-9103-d0671032d4fc
+@subscription-id     = eca2eddb-0f0c-4351-a634-52751499eeea
 @resource-group-name = mmcognitivegrp
 
-@apim-name           = mmapim01 
+@apim-name           = mmapim1
 @apim-api-version    = 2023-09-01-preview
 
-@backend-openai-fallback-name = backend-openai-main-mmopenaiscus
-@backend-openai-fallback-url  = https://mmopenaiscus.openai.azure.com/openai
+@backend-openai-fallback-name = backend-openai-fallback-mmopenaiscus
+@backend-openai-fallback-url  = https://mmoaiswc-01.openai.azure.com/openai
 
 @backend-openai-main-name = backend-openai-main-mmopenaisec
-@backend-openai-main-url  = https://mmopenaisec.openai.azure.com/openai
+@backend-openai-main-url  = https://mmoaiswc-01.openai.azure.com/openai
 
 @backend-openai-pool-name = backend-openai-pool
 
@@ -38,6 +38,15 @@ Content-Type: application/json
 
 
 ###
+
+# Backend Retrieval using GET
+@backendToRetrieve={{backend-openai-fallback-name}}
+GET https://management.azure.com/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backend-openai-fallback-name}}?api-version={{apim-api-version}}
+Authorization: Bearer {{Token}}
+
+###
+
+
 # Backend - Main with Circuit Breaker
 PUT https://management.azure.com/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backend-openai-main-name}}?api-version={{apim-api-version}}
 Authorization: Bearer {{Token}}
@@ -57,7 +66,7 @@ Content-Type: application/json
       "rules": [
         {
           "name": "myBreakerRule",
-          "tripDuration": "PT1M",
+          "tripDuration": "PT60S",
           "acceptRetryAfter": "false",
           "failureCondition": {
             "count": "3",
@@ -102,12 +111,5 @@ Content-Type: application/json
     }
   }
 }
-
-###
-
-# Backend Retrieval using GET for backend-openai-main-name, backend-openai-fallback-name and backend-openai-pool-name
-@backendToRetrieve={{backend-openai-main-name}}
-GET https://management.azure.com/subscriptions/{{subscription-id}}/resourceGroups/{{resource-group-name}}/providers/Microsoft.ApiManagement/service/{{apim-name}}/backends/{{backendToRetrieve}}?api-version={{apim-api-version}}
-Authorization: Bearer {{Token}}
 
 ###

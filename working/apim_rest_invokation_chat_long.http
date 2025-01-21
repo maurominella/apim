@@ -1,23 +1,30 @@
 # Chat Completion - POST - the api-version value would be passed to openi, NOT to apim
 
-@subscription-standard = 2a903f92bed249ad847d2882322a04de
-@subscription-premium = afb487599b0546d0a1b01e7474982cff
+# default  subscription key: de095d7c9a9d46faaf398e5d961f6aad
+# standard subscription key: 
+# premium  subscription key: 
+
+@deployment-id = gpt-4o-for-apim
+@openai-api-version = 2024-05-01-preview
 
 
-@APIM-API-Endpoint = https://mmapim02.azure-api.net/balanced-azure-openai-service-api/openai
-@APIM-API-Operation-Path = /deployments/gpt-4o-for-apim/chat/completions
-@APIM-Subscription-Key = afb487599b0546d0a1b01e7474982cff
+@APIM-API-Endpoint = https://mmapim03.azure-api.net/balanced-azure-openai-service-api
+@APIM-API-Operation-Path = /deployments/{{deployment-id}}/chat/completions?api-version={{openai-api-version}}
+@APIM-Subscription-Key = de095d7c9a9d46faaf398e5d961f6aad
 
 
 POST {{APIM-API-Endpoint}}{{APIM-API-Operation-Path}}
 api-key: {{APIM-Subscription-Key}}
+Content-Type: application/json
 
 {
-  "max_tokens": 500,
-  "messages": [
-    {
-      "role": "user",
-      "content": "Hi there!"
-    }
-  ]
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is a meaning function? Provide an answer with less than 20 words."
+      }
+    ],
+    "temperature": 0,
+    "top_p": 1.0,    
+    "max_tokens": 1000
 }
