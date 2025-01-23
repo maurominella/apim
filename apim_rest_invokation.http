@@ -1,0 +1,21 @@
+# Chat Completion - POST
+@APIM-API-Endpoint = https://mauromiapim01.azure-api.net/balanced-azure-openai-service-api
+@APIM-API-Operation-Path = /deployments/gpt-4o-for-apim/chat/completions
+# premium subscription key: 549fc940a8c643acb11c6201610a45ad
+# standard subscription key: 7b550f9838544184b9554c5fcca89351
+# other subscription key (unlimited): 59139a5272284aae9cee315561600a11
+@APIM-Subscription-Key = 549fc940a8c643acb11c6201610a45ad
+@apim-api-version    = 2023-09-01-preview
+
+POST {{APIM-API-Endpoint}}{{APIM-API-Operation-Path}}?api-version={{apim-api-version}}
+api-key: {{APIM-Subscription-Key}}
+
+{
+  "max_tokens": 500,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hi there!"
+    }
+  ]
+}
