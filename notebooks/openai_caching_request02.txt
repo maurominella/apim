@@ -1,0 +1,84 @@
+System Message for LLM Evaluation and Analysis
+My name is Mauro, and I am a Cloud Solution Architect at Microsoft, specializing in the Data & AI domain. My expertise spans across Machine Learning, Deep Learning, Hadoop platforms, and Artificial Intelligence technologies, and I have extensive experience in helping organizations implement, optimize, and scale AI-driven solutions.
+
+As part of my role, I actively engage with customers to understand their unique business challenges, technical constraints, and innovation goals. I provide tailored guidance on how AI-powered solutions, cloud architectures, and big data strategies can be effectively integrated into their workflows to drive efficiency, scalability, and long-term success.
+
+Through my consultations, I strive to bridge the gap between complex AI methodologies and practical business applications, ensuring that organizations maximize their technological investments. My approach combines technical expertise, industry knowledge, and strategic foresight to help businesses navigate the fast-evolving AI landscape.
+
+At the bottom of this message, I am including a technical article on Generative AI. Your task is to thoroughly analyze and evaluate the article, following these structured guidelines to ensure a comprehensive, insightful review.
+
+1. Summarization
+Begin with a concise yet comprehensive summary of the article’s content. Your summary should:
+
+Retain technical depth while distilling the article into a structured, digestible format.
+
+Highlight core ideas, arguments, and key insights presented by the author.
+
+Ensure that the author's intent, conclusions, and major findings remain intact.
+
+Capture any industry trends, advancements, or breakthroughs mentioned in the discussion.
+
+Avoid oversimplifying or omitting technical details—your response should effectively summarize the article while preserving its essential complexity and nuance.
+
+2. Key Points Identification & Analysis
+Extract and highlight the most significant concepts, discussions, and technical methodologies referenced in the article. Your analysis should:
+
+Provide a structured breakdown of the article’s most important points.
+
+Explain each concept’s real-world relevance in the field of Generative AI.
+
+Discuss supporting evidence, examples, case studies, or experiments presented by the author, evaluating their impact.
+
+Identify any referenced frameworks, AI models, or algorithmic approaches, offering a concise explanation of their purpose, functionality, and implications.
+
+Consider the broader implications of Generative AI, including ethical considerations, deployment strategies, and ongoing research challenges.
+
+Your evaluation should be insightful and well-structured, helping AI professionals, researchers, and developers deepen their understanding of the content.
+
+3. Complexity Feedback
+Assess the complexity and accessibility of the article by analyzing the following aspects:
+
+Target audience—determine if the article is best suited for beginners, intermediate readers, or advanced professionals in AI.
+
+Identify technical jargon, specialized terms, or complex mathematical concepts that might pose challenges for non-expert readers.
+
+Evaluate the article’s clarity, coherence, and readability, determining whether the content is effectively presented.
+
+Pinpoint sections that may need further simplification, restructuring, or enhanced explanations to improve accessibility.
+
+Consider whether additional diagrams, code snippets, or illustrative examples could enhance comprehension.
+
+This complexity assessment serves as a valuable tool for ensuring that AI-related educational materials are accessible, engaging, and well-suited for the intended audience.
+
+4. Evaluation of Quality & Clearness
+Critically examine the structure, research quality, and effectiveness of the article in conveying its message. Your assessment should cover:
+
+A review of the article’s logical organization, flow, and readability—does it present ideas clearly and in a structured manner?
+
+An analysis of whether the article is well-researched, factually accurate, and backed by reliable sources.
+
+A critique of whether the content is engaging, insightful, and informative, or if certain areas feel underdeveloped.
+
+Suggestions on potential areas for improvement, such as:
+
+Strengthening arguments with additional data and credible references.
+
+Improving clarity in explanations to minimize ambiguity.
+
+Enhancing engagement through storytelling, real-world case studies, or multimedia content.
+
+Your evaluation should be constructive and actionable, providing meaningful feedback that helps professionals, researchers, and technical writers refine their work.
+
+Final Notes
+Your response must be well-structured, professionally articulated, and deeply insightful, ensuring that AI practitioners receive valuable, practical recommendations. Maintain a critical yet balanced approach, ensuring that your analysis is objective, thorough, and actionable.
+
+HERE IS THE ARTICLE:
+"""
+Article: How to configure content filters
+
+The content filtering system integrated into Azure AI Foundry runs alongside the core models, including DALL-E image generation models. It uses an ensemble of multi-class classification models to detect four categories of harmful content (violence, hate, sexual, and self-harm) at four severity levels respectively (safe, low, medium, and high), and optional binary classifiers for detecting jailbreak risk, existing text, and code in public repositories.
+
+The default content filtering configuration is set to filter at the medium severity threshold for all four content harms categories for both prompts and completions. That means that content that is detected at severity level medium or high is filtered, while content detected at severity level low or safe is not filtered by the content filters. Learn more about content categories, severity levels, and the behavior of the content filtering system here.
+
+Jailbreak risk detection and protected text and code models are optional and on by default. For jailbreak and protected material text and code models, the configurability feature allows all customers to turn the models on and off. The models are by default on and can be turned off per your scenario. Some models are required to be on for certain scenarios to retain coverage under the Customer Copyright Commitment.
+"""

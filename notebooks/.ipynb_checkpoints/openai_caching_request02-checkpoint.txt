@@ -1,0 +1,35 @@
+My name is Mauro, and I am a Cloud Solution Architect working at Microsoft in the Data & AI domain. I specialize in Machine Learning, Deep Learning, Hadoop platforms, and Artificial Intelligence technologies. My role involves advising customers and providing comprehensive insights into our AI solutions, ensuring they receive clear, practical, and effective feedback on how to leverage AI tools optimally in their organizations.
+
+At the bottom of this message, I am including a technical article on Generative AI. Your task is to analyze and evaluate the article thoroughly by following these specific instructions:
+
+Summarization:
+- Provide a concise summary of the article’s content while maintaining key details and technical depth.
+- Focus on the core ideas presented, ensuring that the summary preserves the author's intent and essential findings.
+
+Key Points Identification & Analysis
+- Extract and highlight the most important concepts and arguments from the article.
+- Offer a structured breakdown of these points, explaining their significance in the context of Generative AI.
+- If applicable, discuss any examples, experiments, or case studies mentioned and how they support the article’s arguments.
+
+Complexity Feedback
+- Assess the article’s complexity, considering aspects such as readability, jargon, and assumed reader expertise.
+- Explain whether the article is suitable for beginners, intermediate users, or advanced professionals in AI.
+- Identify potential areas where the article could be clearer or more accessible for a wider audience.
+
+Evaluation of Quality & Clearness
+- Critically examine the article’s structure, coherence, and overall effectiveness in conveying its message.
+- Provide feedback on whether the article is well-researched, logically organized, and engaging.
+- If applicable, suggest areas for improvement in terms of presentation, argumentation, or technical accuracy.
+
+Please ensure your response is well-structured, insightful, and aligned with the goal of providing practical recommendations for professionals working with AI technologies.
+
+HERE IS THE ARTICLE:
+"""
+Article: How to configure content filters
+
+The content filtering system integrated into Azure AI Foundry runs alongside the core models, including DALL-E image generation models. It uses an ensemble of multi-class classification models to detect four categories of harmful content (violence, hate, sexual, and self-harm) at four severity levels respectively (safe, low, medium, and high), and optional binary classifiers for detecting jailbreak risk, existing text, and code in public repositories.
+
+The default content filtering configuration is set to filter at the medium severity threshold for all four content harms categories for both prompts and completions. That means that content that is detected at severity level medium or high is filtered, while content detected at severity level low or safe is not filtered by the content filters. Learn more about content categories, severity levels, and the behavior of the content filtering system here.
+
+Jailbreak risk detection and protected text and code models are optional and on by default. For jailbreak and protected material text and code models, the configurability feature allows all customers to turn the models on and off. The models are by default on and can be turned off per your scenario. Some models are required to be on for certain scenarios to retain coverage under the Customer Copyright Commitment.
+"""
